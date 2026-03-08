@@ -1,12 +1,4 @@
-@mixin visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-}
+@use '../styles/utils/mixins.scss' as *;
 
 .form {
   display: flex;
@@ -24,7 +16,7 @@
     box-sizing: border-box;
 
     &::placeholder {
-      font-family: Inter, Arial, Helvetica, sans-serif;
+      font-family: var(--font-family);
       font-weight: 400;
       font-size: 14px;
       line-height: 20px;
@@ -41,9 +33,10 @@
     height: 148px;
     padding: 14px 16px;
     box-sizing: border-box;
+    margin-bottom: 32px;
 
     &::placeholder {
-      font-family: Inter, Arial, Helvetica, sans-serif;
+      font-family: var(--font-family);
       font-weight: 400;
       font-size: 14px;
       line-height: 20px;

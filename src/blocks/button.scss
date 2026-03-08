@@ -6,18 +6,31 @@
   text-decoration: none;
   color: #fff;
   text-align: center;
-  height: 27px;
-  line-height: 27px;
+  height: 56px;
+  line-height: 56px;
   font-weight: 700;
   padding: 0 48px;
 
-  &--primary {
-    font-family: Inter, Arial, Helvetica, sans-serif;
+  &:hover {
+    background-color: #fff;
+    color: var(--main-font-color);
     border: 3px solid #292929;
+  }
+
+  &--primary {
+    font-family: var(--font-family);
+    border: 3px solid #292929;
+    background-color: #fff;
     border-radius: 40px;
-    color: #292929;
+    color: var(--main-font-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 27px;
+    margin-bottom: 48px;
+
+    &:hover {
+      background-color: #292929;
+      color: #fff;
+    }
   }
 }
