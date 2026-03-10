@@ -1,4 +1,5 @@
 .address {
+
   &__label {
     font-family: var(--font-family);
     font-style: normal;
@@ -10,6 +11,7 @@
   }
 
   &__content {
+      display: block;
     font-family: var(--font-family);
     font-style: normal;
     font-weight: 400;
