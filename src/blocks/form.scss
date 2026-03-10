@@ -23,6 +23,9 @@
       letter-spacing: 0;
       color: #7e7e83;
     }
+    &:hover::placeholder {
+      color: #292929;
+    }
   }
 
   &__textarea {
@@ -42,6 +45,9 @@
       line-height: 20px;
       letter-spacing: 0;
       color: #7e7e83;
+    }
+    &:hover::placeholder {
+      color: #292929;
     }
   }
 

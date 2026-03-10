@@ -2,6 +2,10 @@
   &__item {
     display: block;
     margin: 0 auto 32px;
+    &:hover {
+      transform: scale(1.2);
+      z-index: 1;
+    }
   }
 
   &__paragraph {
