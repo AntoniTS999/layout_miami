@@ -1,17 +1,17 @@
 @use '../styles/utils/mixins.scss' as *;
 
 .section {
-  padding-top: 96px;
+  padding-bottom: 96px;
 
   &:first-child {
     padding-top: 0;
   }
 
   @include for-tablet {
-    padding-top: 120px;
+    padding-bottom: 120px;
   }
   @include for-desktop {
-    padding-top: 120px;
+    padding-bottom: 120px;
   }
 
   &__title {

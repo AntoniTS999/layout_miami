@@ -10,6 +10,7 @@
   background-color: #e8eff9;
   padding: 0 20px 20px;
   min-height: 100vh;
+  overflow-y: hidden;
   z-index: 1;
 
   @include grid;
